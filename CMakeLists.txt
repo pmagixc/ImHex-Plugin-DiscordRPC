@@ -20,3 +20,5 @@ add_imhex_plugin(
         discord_game_sdk
         nlohmann_json
 )
+
+target_link_options(discord_rpc PRIVATE -undefined dynamic_lookup -flat_namespace)
