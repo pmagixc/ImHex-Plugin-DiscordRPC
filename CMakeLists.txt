@@ -21,4 +21,6 @@ add_imhex_plugin(
         nlohmann_json
 )
 
-target_link_options(discord_rpc PRIVATE -undefined dynamic_lookup -flat_namespace)
+if (APPLE)
+    target_link_options(discord_rpc PRIVATE -undefined dynamic_lookup -flat_namespace)
+endif()
