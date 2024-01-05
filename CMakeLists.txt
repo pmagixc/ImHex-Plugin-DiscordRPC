@@ -16,8 +16,6 @@ add_imhex_plugin(
         discord_rpc
     SOURCES
         source/discord_rpc_plugin.cpp
-    INCLUDES
-        include
     LIBRARIES
         discord_game_sdk
         nlohmann_json
