@@ -18,7 +18,7 @@
 
 using namespace hex;
 
-constexpr static auto DiscordClientID = 1060827018196955177;
+constexpr static auto DiscordClientID = 1304120118032470058;
 constexpr static auto LargeIconID = "imhex_logo";
 
 static bool s_rpcEnabled = false;
